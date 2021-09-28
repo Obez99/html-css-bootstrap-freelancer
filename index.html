@@ -15,9 +15,9 @@
   <body>
     <header>
       <!--Navbar-->
-      <nav class="bg-dark text-light ">
+      <nav>
         <div class="container">
-          <div class="row justify-content-between">
+          <div class="row">
             <div class="col-3"><h3>start bootstrap</h3></div>
             <div class="col-4"><button><i class="fas fa-bars"></i></button></div>
           </div>
@@ -27,16 +27,16 @@
 
     <main>
       <!--Starting bootstrap section-->
-      <section class="bg-success">
+      <section>
         <div class="container">
           <div class="row">
-            <div class="col-12 col-md-9 col-lg-6 mx-auto py-5 my-start-bootstrap"></div>
+            <div class="col-12 col-md-9 col-lg-6 my-start-bootstrap"></div>
           </div>
         </div>
       </section>
 
       <!--Portfolio section-->
-      <section class="mt-5">
+      <section>
         <div class="container">
           <div class="row">
             <div class="col-6">
@@ -45,7 +45,7 @@
           </div>
 
           <!--Image grid-->
-          <div class="row mb-5">
+          <div class="row">
             <div class="col-12 col-md-6 col-lg-4 my-portfolio-card"></div>
             <div class="col-12 col-md-6 col-lg-4 my-portfolio-card"></div>
             <div class="col-12 col-md-6 col-lg-4 my-portfolio-card"></div>
@@ -56,20 +56,20 @@
           </div>
         </section>
 
-        <section class="bg-success">
-          <div class="container text-white d-flex flex-column align-items-center">
+        <section>
+          <div class="container my_about_container">
             <!--About-->
             <div class="row">
-              <div class="col-4">
+              <div class="col-12">
                 <h3>About</h3>
               </div>
             </div>
 
-            <div class="row">
-              <div class="col-12 col-md-6">
+            <div class="row my_about_info">
+              <div class="col-10 col-md-5">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa ea dolores, vero illo beatae modi, voluptate qui excepturi, id totam aspernatur officia doloribus saepe repellendus iure eos similique laboriosam. Culpa.
               </div>
-              <div class="col-12 col-md-6">
+              <div class="col-10 col-md-5 ">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque, dignissimos fugiat fugit excepturi impedit architecto numquam eligendi facilis molestiae sit ab dolorum assumenda doloremque harum placeat! Laudantium odit delectus debitis?
               </div>
             </div>
@@ -80,7 +80,38 @@
           </div>
 
         </section>
-        
+
+        <section>
+          <!--Contact section container-->
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <h2>Contact me</h2>
+              </div>
+            </div>
+
+            <div class="row"></div>
+
+            <!--Inputs-->
+            <div class="row">
+              <div class="col-12">
+                <input type="text" placeholder="Name">
+              </div>
+              <div class="col-12">
+                <input type="text" placeholder="Email Address">
+              </div>
+              <div class="col-12">
+                <input type="text" placeholder="Phone Number">
+              </div>
+              <div class="col-12">
+                <textarea cols="30" rows="10" placeholder="Message"></textarea>
+              </div>
+              <div class="col">
+                <button>Send</button>
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
     </body>
   </html>

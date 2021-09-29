@@ -34,6 +34,9 @@ a{
 .ms_card{
   width:100%;
   border-radius: 20px;
+  border:0;
+  transform: scale(1);
+  transition: transform 0.3s;
 }
 
 .ms_form_input{

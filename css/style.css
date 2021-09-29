@@ -19,13 +19,8 @@ footer{
   width: 100% ;
 }
 
-
-.my-start-bootstrap{
-  height: 500px;
-  background-color: blue;
-  border: 1px solid black;
-  padding: 20px 0;
-  margin:auto;
+.ms_line{
+  height: 5px;
 }
 
 .my-portfolio-card{

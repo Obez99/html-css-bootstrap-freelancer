@@ -164,31 +164,44 @@
         <section>
           <!--Contact section container-->
           <div class="container">
-            <div class="row">
-              <div class="col-12">
+            <div class="row justify-content-center">
+              <div class="col-12 text-center">
                 <h2>Contact me</h2>
+              </div>
+
+              <div class="w-25 d-flex align-items-center my-3">
+                <div class="ms_line bg-dark rounded w-50"></div>
+                <div class="mx-2"><i class="fs-1 fas fa-star"></i></div>
+                <div class="ms_line bg-dark rounded w-50"></div>
               </div>
             </div>
 
-            <div class="row"></div>
-
             <!--Inputs-->
             <div class="row">
-              <div class="col-12">
-                <input type="text" placeholder="Name">
-              </div>
-              <div class="col-12">
-                <input type="text" placeholder="Email Address">
-              </div>
-              <div class="col-12">
-                <input type="text" placeholder="Phone Number">
-              </div>
-              <div class="col-12">
-                <textarea cols="30" rows="10" placeholder="Message"></textarea>
-              </div>
-              <div class="col">
-                <button>Send</button>
-              </div>
+              <form class="form-group">
+                
+                <div class="form-floating">
+                  <input type="text" class="form-control ms_form_input" placeholder="Name">
+                  <label class="form-label">Name</label>
+                </div>
+                <div class="form-floating">
+                  <input type="text" class="form-control ms_form_input" placeholder="Email Address">
+                  <label class="form-label">Email Address</label>
+                </div>
+                <div class="form-floating">
+                  <input type="text" class="form-control ms_form_input" placeholder="Phone Number">
+                  <label class="form-label">Phone Number</label>
+                </div>
+                <div class="form-floating">
+                  <textarea placeholder="Message" class="form-control ms_form_input ms_form_textarea"></textarea>
+                  <label class="form-label">Message</label>
+                </div>
+              
+                <div class="col">
+                  <button class="btn btn-success mt-4">Send</button>
+                </div>
+
+              </form>
             </div>
           </div>
         </section>

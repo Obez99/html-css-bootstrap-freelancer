@@ -28,3 +28,12 @@ footer{
   border-radius: 20px;
 }
 
+.ms_form_input{
+  border:0;
+  margin: 20px 0;
+  border-bottom: 1px solid lightgray;
+}
+
+.ms_form_textarea{
+  height: 200px !important;
+}

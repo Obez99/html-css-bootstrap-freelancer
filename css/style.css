@@ -6,23 +6,19 @@ section{
   margin-bottom: 50px;
 }
 
-nav, footer{
-  background-color: black;
+nav li>a{
+  text-decoration: none;
   color:white;
-  margin-bottom: 20px;
 }
 
 footer{
   text-align: center;
 }
 
-section:nth-of-type(odd){
-  background-color: green;
-}
-
 .row input,textarea{
   width: 100% ;
 }
+
 
 .my-start-bootstrap{
   height: 500px;

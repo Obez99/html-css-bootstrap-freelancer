@@ -23,10 +23,9 @@ footer{
   height: 5px;
 }
 
-.my-portfolio-card{
-  height: 300px;
-  background-color: red;
-  border: 1px solid black;
+.ms_card{
+  width:100%;
+  border-radius: 20px;
 }
 
 .my_about_container{

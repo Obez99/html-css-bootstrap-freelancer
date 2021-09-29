@@ -1,3 +1,27 @@
 .ms_card:hover{
   transform: scale(1.1);
 }
+
+a:hover{
+  color: white;
+}
+
+.facebook_link:hover{
+  background-color: royalblue;
+}
+
+.google_link:hover{
+  background-color: tomato;
+}
+
+.twitter_link:hover{
+  background-color: lightskyblue;
+}
+
+.linkedin_link:hover{
+  background-color: white;
+}
+
+.linkedin_link a:hover{
+  color:darkcyan;
+}

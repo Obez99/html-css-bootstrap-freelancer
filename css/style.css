@@ -48,3 +48,10 @@ a{
 .ms_form_textarea{
   height: 200px !important;
 }
+
+.facebook_link,
+.google_link,
+.twitter_link,
+.linkedin_link{
+  transition: background-color 0.3s;
+}
